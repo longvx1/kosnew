@@ -5846,8 +5846,8 @@ left: 20px;
 
 .color.checked {border-color: #cac6c6;}
 .size_vali{
- font-weight: normal;
-    font-size: 14px;
+ font-weight: normal !important;
+ font-size: 14px  !important;
 }
 .color:hover{
      border-color: #1ba0da;
