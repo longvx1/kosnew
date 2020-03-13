@@ -5788,21 +5788,7 @@ left: 20px;
 
 
 
-.color {
-
-    width: 65px;
-
-    display: inline-block;
-
-    padding: 2px;
-
-    cursor: pointer;
-
-    border: 2px solid transparent;
-
-    margin-right: 6px;
-
-}
+.color {width: 65px;display: inline-block;padding: 2px;cursor: pointer;border: 1px solid transparent;margin-right: 6px;margin-bottom: 6px;}
 
 
 
@@ -5858,13 +5844,14 @@ left: 20px;
 
 
 
-.color.checked {
-
-    border-color: #999;
-
+.color.checked {border-color: #cac6c6;}
+.size_vali{
+ font-weight: normal;
+    font-size: 14px;
 }
-
-
+.color:hover{
+     border-color: #1ba0da;
+}
 
 .color.xanh.checked {
 
@@ -6906,7 +6893,7 @@ left: 20px;
 
     right: 2px;
 
-    content: '•';
+    content: 'â€¢';
 
     color: #999;
 
@@ -7578,7 +7565,7 @@ left: 20px;
 
     position: absolute;
 
-    content: "•";
+    content: "â€¢";
 
     top: 5px;
 
