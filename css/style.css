@@ -5335,6 +5335,23 @@ left: 20px;
     position: relative;
 }
 
+@media(max-width: 991px){
+    .product_page .pd_main_img .pd_img_slide .slide_img:after {
+        content: "< QUẸT >";
+        bottom: 7px;
+        left: 6px;
+        background: rgba(255, 255, 255, .9);
+        width: 80px;
+        height: 35px;
+        line-height: 35px;
+        position: absolute;
+        border-radius: 9999px;
+        box-shadow: 1px 1px 5px #ccc;
+        color: #999;
+        font-size: 12px;
+    }
+}
+
 .product_page .pd_main_img .pd_img_slide .slide_img .slide_label{
     position: absolute;
     right: 0;
