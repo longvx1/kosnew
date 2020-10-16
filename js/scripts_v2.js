@@ -82,7 +82,7 @@ $(document).ready(function() {
     });
 
     var $pd_slide = $(".pd_img_slide .owl-carousel");
-    initProductSlider($pd_slide);
+    
 
     $('.product_page .img_group_item').click(function() {
         if (!$(this).hasClass('is-actived')) {
@@ -104,6 +104,11 @@ $(document).ready(function() {
             });
         }
     })
+    if (coVideoSanPham) {
+        $('#videoSanPham').trigger('click');
+    } else {
+        initProductSlider($pd_slide);
+    }
     $('.pd_color .color').click(function() {
         location.href = $(this).data('url');
         return false;
